@@ -1,0 +1,58 @@
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar li > a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.container {
+  width: 1000px;
+  height: 300px;
+  display: flex;
+}
+
+.left-box {
+  width: 70%;
+  margin-right: 20px;
+}
+
+.right-img {
+  width: 30%;
+}
+
+.name-box {
+  display: flex;
+}
+
+.titleImg {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.title {
+  font-weight: 400;
+}
+
+.text {
+  font-weight: 300;
+}
+
+.text-box {
+  margin-top: 10px;
+}
+
+.text-box h1 {
+  font-size: 30px;
+}
+
+.text-box p {
+  font-size: 14px;
+  color: gray;
+}

@@ -1,0 +1,150 @@
+html {
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../shoes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1px;
+  position: relative;
+}
+
+.main-title {
+  color: white;
+  font-size: 40px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.main-content {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 150px;
+  cursor: pointer;
+}
+
+.explain-box {
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+  position: relative;
+  top: -40px;
+}
+
+.input-background {
+  background-color: rgb(71, 71, 71);
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-box {
+  width: 40%;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.name-box > h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.name-box > input {
+  width: 310px;
+  height: 30px;
+  border: 1px solid rgb(220, 216, 216);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.name-box p {
+  margin-bottom: 2px;
+}
+
+.name-box > input::placeholder {
+  color: rgb(192, 188, 188);
+}
+
+.name-container {
+  display: flex;
+}
+
+.name-left input,
+.name-right input {
+  width: 150px;
+  height: 30px;
+  border: 1px solid rgb(220, 216, 216);
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+textarea {
+  width: 310px;
+  height: 100px;
+  border: 1px solid rgb(220, 216, 216);
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.sub-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  accent-color: gray;
+}
+
+.send-button {
+  background-color: rgb(242, 144, 8);
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  position: relative;
+  right: 10px;
+  top: 3px;
+}
