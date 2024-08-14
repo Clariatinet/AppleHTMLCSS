@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-container {
+  padding: 20px;
+  background-color: coral;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right h3 {
+  margin-left: 10px;
+}

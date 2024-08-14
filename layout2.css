@@ -1,9 +1,15 @@
+@font-face {
+  font-family: '이쁜폰트';
+  src: url(./font/NanumSquareAcB.woff);
+}
+
 html {
   line-height: 1.15;
 }
 
 body {
   margin: 0;
+  font-family: '이쁜폰트';
 }
 
 * {
@@ -60,4 +66,70 @@ body {
   background-color: #eee;
   position: relative;
   top: -40px;
+}
+
+.form-background {
+  background-color: black;
+  padding: 30px;
+}
+
+.form-white {
+  background-color: white;
+  padding: 30px;
+  max-width: 600px;
+  width: 80%;
+  margin: auto;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.form-long {
+  margin-top: -10px;
+}
+
+.yellow-button {
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  border: none;
+  background-color: rgb(240, 164, 63);
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  right: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-title {
+    font-size: 10px;
+  }
 }

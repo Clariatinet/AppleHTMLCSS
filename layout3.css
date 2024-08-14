@@ -1,0 +1,17 @@
+.size-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1200px) {
+  .size-container {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .size-container {
+    align-items: center;
+    flex-direction: column;
+  }
+}

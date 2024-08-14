@@ -1,0 +1,96 @@
+body {
+  background-color: skyblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.cart-h1 {
+  width: 80%;
+  text-align: left;
+  color: rgb(57, 99, 114);
+}
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+.thead-tr td {
+  padding: 20px;
+  color: rgb(98, 145, 163);
+  border-bottom: 1px solid rgb(98, 145, 163);
+  font-weight: bold;
+}
+
+.tbody-tr {
+  border-bottom: 1px solid rgb(98, 145, 163);
+}
+
+td {
+  font-size: 20px;
+}
+
+table img {
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.item-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.item-box-text {
+  text-align: left;
+}
+
+.text-color {
+  color: rgb(57, 99, 114);
+}
+
+.text-color-bolder {
+  color: rgb(57, 99, 114);
+  font-weight: bold;
+}
+
+.sum {
+  padding: 30px;
+}
+
+.select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  width: 80%;
+}
+
+.select-box a {
+  color: rgb(35, 30, 83);
+}
+
+.select-box button {
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(32, 19, 104);
+  color: white;
+}
