@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0;
-  font-family: '이쁜폰트';
+  /* font-family: '이쁜폰트'; */
 }
 
 * {
@@ -68,6 +68,17 @@ body {
   top: -40px;
 }
 
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .form-background {
   background-color: black;
   padding: 30px;
@@ -120,16 +131,19 @@ body {
   .main-title {
     font-size: 30px;
   }
+
+  .product-container {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .main-title {
     font-size: 20px;
   }
-}
 
-@media screen and (max-width: 576px) {
-  .main-title {
-    font-size: 10px;
+  .product-container {
+    align-items: center;
+    flex-direction: column;
   }
 }
